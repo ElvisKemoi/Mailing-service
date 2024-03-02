@@ -1,0 +1,64 @@
+<%- include("partials/header") -%>
+<h1>Adding Members</h1>
+
+
+    <section class="form-signin w-100 m-auto">
+
+    
+    <form action="/subscribe" method="post" class="signup-form container mx-auto border rounded  shadow">
+        <h1 class="h3 mb-3 fw-normal">Sign Up to my Newsletter!</h1>
+
+        <label for="floatingInput">First Name:</label>
+        <div class="form-floating shadow">
+            <input
+                name="fName"
+                type="text"
+                class="form-control"
+                id="floatingInput"
+                placeholder="First Name: "
+                autofocus
+                required
+            />
+        </div>
+        <label for="floatingInput">Last Name:</label>
+        <div class="form-floating shadow">
+            <input
+                name="lName"
+                type="text"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Last Name: "
+                required
+            />
+        </div>
+        <label for="floatingInput">Email:</label>
+        <div class="form-floating shadow">
+            <input
+                name="email"
+                type="email"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Last Name: "
+                required
+            />
+        </div>
+        <label for="floatingInput">Phone Number:</label>
+        <div class="form-floating shadow">
+            <input
+                name="phone"
+                type="number"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Phone Number: "
+                required
+            />
+        </div>
+
+        <button class="btn btn-primary w-100 py-2 my-3 shadow" type="submit">
+            Sign Me Up!
+        </button>
+        <p class="mt-5 mb-3 text-body-secondary">&copy; Elvis</p>
+    </form>
+</section>
+    
+</div>

@@ -1,0 +1,13 @@
+.listId{
+    color: red;
+}
+.subscribed{
+    color: red;
+}
+
+.data{
+    transition: .2s ease;
+}
+
+
+

@@ -76,9 +76,6 @@ app.post("/subscribe", (req, res) => {
 });
 
 
-app.get("/current", (req,res)=>{
-    res.render("current")
-})
 
 
 app.listen(3001, 
